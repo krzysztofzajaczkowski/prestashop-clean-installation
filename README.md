@@ -22,7 +22,7 @@ windowsStart.bat
 If you haven't changed default user and password, use root:root for login:password, test connection and continue.
 ![image][image_ref_db]
 
-### when install is finished do some clean-up:
+### When everything is installed, do some cleanup:
 On Linux:
 ```
 ./linuxCleanup.sh
