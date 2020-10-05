@@ -4,7 +4,7 @@
 ## Follow these steps to get started:
 
 ```
-git clone https://github.com/krzysztofzajaczkowski/presta-clean-install.git
+git clone https://github.com/krzysztofzajaczkowski/prestashop-clean-installation.git
 
 cd presta-clean-install
 ```
