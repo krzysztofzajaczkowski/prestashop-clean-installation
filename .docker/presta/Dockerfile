@@ -14,7 +14,6 @@ RUN apt-get upgrade
 RUN apt-get install -y apache2 libapache2-mod-php
 RUN apt install -y php unzip
 RUN apt-get install -y php-cli php-common php-mbstring php-gd php-intl php-xml php-mysql php-zip php-curl php-xmlrpc
-COPY ./.docker/src /var/www/html:rw
 COPY ./config/presta.conf /etc/apache2/sites-available/000-default.conf
 RUN a2enmod rewrite
 # Define working directory.
