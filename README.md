@@ -1,5 +1,6 @@
 
-# PrestaShop docker-compose easy install
+
+# PrestaShop docker-compose clean installation
 
 ## Follow these steps to get started:
 
@@ -19,7 +20,7 @@ windowsStart.bat
 ```
 
 ### After initialization, open localhost and go through the installation, up to database configuration:
-If you haven't changed default user and password, use root:root for login:password, test connection and continue.
+If you haven't changed default user and password, use root:root for login:password, test connection and continue if everything works.
 ![image][image_ref_db]
 
 ### When everything is installed, do some cleanup:
@@ -31,7 +32,7 @@ On Windows:
 ```
 windowsCleanup.bat
 ```
-## that`s it!
+## All done!
 
 [image_ref_db]:
-https://user-images.githubusercontent.com/48659621/95109747-4f506380-073d-11eb-8a44-bf40b9950ed7.png
+https://user-images.githubusercontent.com/48659621/100519269-2e354d80-3197-11eb-8a78-06124bc5dd52.png
